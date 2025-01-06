@@ -1,16 +1,23 @@
-# weather_app
+# Simple Weather App
 
-A new Flutter project.
+A minimalist weather application built using **Flutter** that fetches real-time weather data from an API. This app provides essential weather details such as temperature, humidity, and weather conditions for any location. Designed with a clean and intuitive interface, it’s perfect for learning and practical use.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Installation
 
-A few resources to get you started if this is your first Flutter project:
+Follow these steps to set up the project locally:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sahasrayan/flutter-simple-weather-app.git
+   cd flutter-simple-weather-app
+2. Install dependencies:
+     flutter pub get
+3.Set up API key:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Obtain an API key from a weather data provider like OpenWeatherMap or WeatherAPI.
+Create a file named api_config.dart in the lib directory, and add the following code:
+const String weatherApiKey = 'YOUR_API_KEY_HERE';
+Replace YOUR_API_KEY_HERE with your actual API key.
+4.Run the application:
+  flutter run
